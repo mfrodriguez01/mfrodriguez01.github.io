@@ -1,0 +1,20 @@
+doctype html
+html(lang="es")
+  head
+    title="Lugares que quiero visitar"
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(charset='utf-8')
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css")
+    //link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css")
+    link(rel="stylesheet", href="/simplex.css")
+    //link(rel="stylesheet", href="/slate.css")
+    link(rel="stylesheet", href="/custom.css")
+  body
+        != partial("_shared/nav")
+
+        div(class="container mainContainer")
+          != yield
+        footer
+          //!= partial("_shared/nav")
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js')

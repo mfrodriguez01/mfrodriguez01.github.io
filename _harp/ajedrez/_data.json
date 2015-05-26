@@ -1,0 +1,20 @@
+{
+  "articulo-1": {
+    "title": "Artículo de prueba 1"
+  },
+  "articulo-2": {
+    "title": "Artículo de prueba 2"
+  },
+  "articulo-3": {
+    "title": "Artículo de prueba 3"
+  },
+  "articulo-4": {
+    "title": "Artículo de prueba 4 con jade"
+  },
+  "articulo-5": {
+    "title": "Artículo de prueba 5 en clase"
+  },
+  "articulo-6": {
+    "title": "Artículo de prueba 5 en Five"
+  }
+}
